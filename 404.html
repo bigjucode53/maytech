@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body {
+     body {
             margin: 0;
             overflow: hidden;
         }
@@ -29,35 +29,68 @@
             text-decoration: none !important;
             color: green;
         }
+        .no_pointer{
+            pointer-events: none;
+        }
+
+        .scrolling-text {
+            display: inline-block;
+            white-space: nowrap;
+        }
+        /* Autres styles... */
     </style>
     <title>Page en cours de développement avec du code comme dans matrix.</title>
 </head>
 <body>
-    <div class="container">
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;" class="container">
         <h1>Page en cours de développement</h1>
-        <p>Désolé, vous n'avez pas dit le mot magique!</p>
-        <iframe src="https://giphy.com/embed/gQDazMXigdtD2" width="480" height="309" frameborder="0" class="giphy-embed" allowfullscreen></iframe>
-        <div class="scrolling-text">
-            <p>HAHAHA vous n'avez pas dit le mot magique. </p>
-            <p>HAHAHA vous n'avez pas dit le mot magique. </p>
-            <p>HAHAHA vous n'avez pas dit le mot magique. </p>
-            <p>HAHAHA vous n'avez pas dit le mot magique. </p>
-            <p>HAHAHA vous n'avez pas dit le mot magique. </p>
-            <p>HAHAHA vous n'avez pas dit le mot magique. </p>
-            <p>HAHAHA vous n'avez pas dit le mot magique. </p>
-            <p>HAHAHA vous n'avez pas dit le mot magique. </p>
-            <p>HAHAHA vous n'avez pas dit le mot magique. </p>
-            <p>HAHAHA vous n'avez pas dit le mot magique. </p>
-            <p>HAHAHA vous n'avez pas dit le mot magique. </p>
-            <p>HAHAHA vous n'avez pas dit le mot magique. </p>
-            <p>HAHAHA vous n'avez pas dit le mot magique. </p>
-            <p>HAHAHA vous n'avez pas dit le mot magique. </p>
-            <p>HAHAHA vous n'avez pas dit le mot magique. </p>
-            <p>HAHAHA vous n'avez pas dit le mot magique. </p>
-            <p>HAHAHA vous n'avez pas dit le mot magique. </p>
-            <p><a class="magik" href="index.html">-> Je hais ces putain de developpeurs!</a> </p>
-
+        <p><a class="magik" href="index.html">-> Je hais ces putain de developpeurs!Retour en lieu surs</a>
+            
+        <iframe style="display: flex; margin-top: 10%;" src="https://giphy.com/embed/gQDazMXigdtD2" width="480" height="309" frameborder="0" class="giphy-embed no_pointer" allowfullscreen></iframe>
+        <div class="scrolling-text" id="text-container">
         </div>
     </div>
+    <script>
+        const phrases = [
+            "HAHAHA vous n'avez pas dit le mot magique.",
+            "HAHAHA vous n'avez pas dit le mot magique.",
+            "HAHAHA vous n'avez pas dit le mot magique.",
+            "HAHAHA vous n'avez pas dit le mot magique.",
+            "HAHAHA vous n'avez pas dit le mot magique.",
+            "HAHAHA vous n'avez pas dit le mot magique.",
+            "HAHAHA vous n'avez pas dit le mot magique.",
+            "HAHAHA vous n'avez pas dit le mot magique.",
+            "HAHAHA vous n'avez pas dit le mot magique.",
+            "HAHAHA vous n'avez pas dit le mot magique.",
+            "HAHAHA vous n'avez pas dit le mot magique.",
+            "HAHAHA vous n'avez pas dit le mot magique.",
+            "HAHAHA vous n'avez pas dit le mot magique.",
+            "HAHAHA vous n'avez pas dit le mot magique.",
+            "HAHAHA vous n'avez pas dit le mot magique.",
+            "HAHAHA vous n'avez pas dit le mot magique.",
+            "HAHAHA vous n'avez pas dit le mot magique.",
+            "HAHAHA vous n'avez pas dit le mot magique.",
+            "HAHAHA vous n'avez pas dit le mot magique.",
+            "HAHAHA vous n'avez pas dit le mot magique.",
+            "HAHAHA vous n'avez pas dit le mot magique.",
+            "HAHAHA vous n'avez pas dit le mot magique.",
+            "HAHAHA vous n'avez pas dit le mot magique.",
+            "HAHAHA vous n'avez pas dit le mot magique.",
+            // Ajoutez d'autres phrases ici
+        ];
+
+        const textContainer = document.getElementById("text-container");
+
+        function displayPhrases(index) {
+            if (index < phrases.length) {
+                setTimeout(() => {
+                    textContainer.innerHTML += phrases[index] + "<br>";
+                    displayPhrases(index + 1);
+                }, 1000); // Temps d'attente entre les phrases en millisecondes
+            }
+        }
+
+        displayPhrases(0);
+    </script>
 </body>
 </html>

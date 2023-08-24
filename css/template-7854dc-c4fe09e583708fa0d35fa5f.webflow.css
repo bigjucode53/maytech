@@ -706,7 +706,6 @@ background-color: #f8982e !important;
   .nav-logo-wrapper {
     margin-right: 8.26em;
   }
-  
   .main-logo {
     width: 7.64em;
   }
@@ -1914,6 +1913,15 @@ background-color: #f8982e !important;
   
   .hero-anim-smile {
     height: 100%;
+    cursor: pointer;
+  }
+  .hero-anim-smile img {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+  }
+  .hero-anim-smile img:hover {
+    -webkit-transform: rotate(360deg)scale(1.05);
+    transform: rotate(360deg)scale(1.05);
   }
   
   ._2-card-grid {

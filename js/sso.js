@@ -17,7 +17,7 @@ SmoothScroll({
   // iframe.width = 0
   // iframe.height = 0
   // iframe.style.display = 'none'
-  // // iframe.src = 'https://platform.May'Tech.us'
+  // // iframe.src = '.May'Tech.us'
   // document.body.appendChild(iframe)
   
   // const CrossOriginLocalStorage = function (currentWindow, iframe, onMessage) {
@@ -97,7 +97,7 @@ SmoothScroll({
   
   // const removeToken = (e) => {
   //   cross.removeData('token')
-  //   window.open('https://platform.May'Tech.us/signin', '_self')
+  //   window.open('.May'Tech.us/signin', '_self')
   // }
   
   // const appendAccount = () => {
@@ -108,7 +108,7 @@ SmoothScroll({
   //   document.querySelectorAll('.log-in').forEach(i => {
   //     i.querySelector('.subtitle').innerHTML = 'Account'
   //     i.classList.add('account-btn')
-  //     i.href = 'https://platform.May'Tech.us/account'
+  //     i.href = '.May'Tech.us/account'
   //   })
   
   //   const menus = document.querySelectorAll('.menu-btn-items')
@@ -119,7 +119,7 @@ SmoothScroll({
   //   mobileMenuBtn.classList.add('account-btn-wrapper')
   //   mobileMenuBtn.style.flexGrow = 1
   //   mobileMenuBtn.innerHTML = `
-  //        <a href="https://platform.May'Tech.us/account" target="_self" class="account-btn btn flex-hor w-inline-block" style="justify-content: center">
+  //        <a href=".May'Tech.us/account" target="_self" class="account-btn btn flex-hor w-inline-block" style="justify-content: center">
   //          <img src="images/Profile-white.svg" loading="lazy" alt="" class="profile-icon">
   //          <div class="subtitle white-text">Account</div>
   //        </a>
@@ -141,19 +141,19 @@ SmoothScroll({
   //            </div>
   //          </li>
   //          <li class="account-btn-sublist-item">
-  //            <a href="https://platform.May'Tech.us/requests"><img src="images/account-btn-req.svg" loading="lazy" alt="" class="profile-icon">Requests</a>
+  //            <a href=".May'Tech.us/requests"><img src="images/account-btn-req.svg" loading="lazy" alt="" class="profile-icon">Requests</a>
   //          </li>
   //          <li class="account-btn-sublist-item">
-  //            <a href="https://platform.May'Tech.us/companies"><img src="images/account-btn-companies.svg" loading="lazy" alt="" class="profile-icon">Companies</a>
+  //            <a href=".May'Tech.us/companies"><img src="images/account-btn-companies.svg" loading="lazy" alt="" class="profile-icon">Companies</a>
   //          </li>
   //          <li class="account-btn-sublist-item">
-  //            <a href="https://platform.May'Tech.us/account"><img src="images/account-btn-personal.svg" loading="lazy" alt="" class="profile-icon">Personal Area</a>
+  //            <a href=".May'Tech.us/account"><img src="images/account-btn-personal.svg" loading="lazy" alt="" class="profile-icon">Personal Area</a>
   //          </li>
   //          <li class="account-btn-sublist-item">
-  //            <a href="https://platform.May'Tech.us/developers"><img src="images/account-btn-bench.svg" loading="lazy" alt="" class="profile-icon">Bench</a>
+  //            <a href=".May'Tech.us/developers"><img src="images/account-btn-bench.svg" loading="lazy" alt="" class="profile-icon">Bench</a>
   //          </li>
   //          <li class="account-btn-sublist-item">
-  //            <a href="https://platform.May'Tech.us/chat"><img src="images/account-btn-chat.svg" loading="lazy" alt="" class="profile-icon">Chat</a>
+  //            <a href=".May'Tech.us/chat"><img src="images/account-btn-chat.svg" loading="lazy" alt="" class="profile-icon">Chat</a>
   //          </li>
   //          <li class="account-btn-sublist-item">
   //            <a href="#" onclick="removeToken()"><img src="images/account-btn-logout.svg" loading="lazy" alt="" class="profile-icon">Log out</a>

@@ -1056,10 +1056,34 @@ background-color: #f8982e !important;
     justify-content: center;
     align-items: center;
     margin-left: 10%;
-    width: 70%;
-    opacity: 50%;
+    width: 30%;
+    opacity: 20%;
   }
-
+  #map-app2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60%;
+    width: 45%;
+    opacity: 30%;
+  }
+  @media (max-width: 1024px) {
+    #map-app2{
+  display: none;
+    }}
+  #map-app3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60%;
+    width: 45%;
+    opacity: 30%;
+  }
+  @media (max-width: 1024px) {
+    #map-app3{
+  display: none;
+    }}
+  
   .images.post {
     display: block;
   }
@@ -1431,7 +1455,7 @@ background-color: #f8982e !important;
     display: flex;
   }
   
-  .nav-menu-icon.close {
+  .nav-menu-icon.Retour {
     align-items: center;
   }
   
@@ -1915,7 +1939,7 @@ background-color: #f8982e !important;
     height: 100%;
     cursor: pointer;
   }
-  .hero-anim-smile img {
+  /* .hero-anim-smile img {
     transition: -webkit-transform 0.5s ease;
     transition: transform 0.5s ease;
   }
@@ -1923,7 +1947,7 @@ background-color: #f8982e !important;
     -webkit-transform: rotate(360deg)scale(1.05);
     transform: rotate(360deg)scale(1.05);
   }
-  
+   */
   ._2-card-grid {
     width: 83%;
     grid-column-gap: 1.1em;
@@ -4121,7 +4145,7 @@ background-color: #f8982e !important;
       width: 32.8%;
     }
   
-    .nav-menu-icon.close {
+    .nav-menu-icon.Retour {
       align-items: center;
     }
   
@@ -5852,7 +5876,7 @@ background-color: #f8982e !important;
       font-size: 1vw;
     }
   
-    .nav-menu-icon.close {
+    .nav-menu-icon.Retour {
       align-items: center;
     }
   

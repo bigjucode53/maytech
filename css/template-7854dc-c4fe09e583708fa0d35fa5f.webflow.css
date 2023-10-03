@@ -765,8 +765,10 @@ background-color: #f8982e !important;
     justify-content: center;
     align-items: center;
 
-
   }
+  footer.section.footer.wf-section {
+    margin-top: 7%;
+}
   .logocentre {
     display: flex;
     justify-content: center;
@@ -777,6 +779,7 @@ background-color: #f8982e !important;
   
   .heading-2-wrapper {
     margin-bottom: 2em;
+    margin-top: 2em;
   }
   
   .h2-text-wrapper {

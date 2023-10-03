@@ -777,7 +777,14 @@ background-color: #f8982e !important;
     width: 100%
 
   }
-  
+  .features-icon{
+    width: 50%
+  }
+  .contain-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .heading-2-wrapper {
     margin-bottom: 4em;
     margin-top: 2em;

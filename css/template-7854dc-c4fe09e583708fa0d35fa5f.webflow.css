@@ -147,7 +147,35 @@
     color: #f8962e8b !important;
   }
  
+  /* h2.big-heading.menu.white-text._01:after {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    content: "➔ ";
+    right: 0;
+    top: 10%;
+    background-color: #f8982e;
+    color: black;
+    font-size: 8.5vw;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+} */
 
+/* h2.big-heading.menu.white-text:after {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  content: "➔ ";
+  right: 0;
+  top: 10%;
+  background-color: #f8982e;
+  color: black;
+  font-size: 8.5vw;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+} */
 
 
   
@@ -2513,7 +2541,7 @@ background-color: #f8982e !important;
   }
   
   .menu-big-links-wrapper {
-    width: 59%;
+    width: 63%;
     height: 11.7em;
     position: relative;
     overflow: hidden;

@@ -165,13 +165,13 @@
   }
   
   .subtitle {
-    color: #1c1c1c;
+    color: #121212;
     letter-spacing: 0;
     text-transform: uppercase;
     margin-bottom: 0;
     font-family: "Montserrat", sans-serif;
     font-size: .85em;
-    font-weight: 400;
+    font-weight: 600;
   }
   #subtitle_load {
     color: white;
@@ -484,7 +484,7 @@
   }
   
   .white-text {
-    color: #f7f7f7;
+    color: #ffffff;
   }
   
   .white-text.h1 {

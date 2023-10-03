@@ -170,8 +170,9 @@
     text-transform: uppercase;
     margin-bottom: 0;
     font-family: "Montserrat", sans-serif;
-    font-size: .85em;
-    font-weight: 600;
+    font-size: 1em;
+    font-weight: 900;
+    line-height: 1em;
   }
   #subtitle_load {
     color: white;
@@ -778,7 +779,7 @@ background-color: #f8982e !important;
   }
   
   .heading-2-wrapper {
-    margin-bottom: 2em;
+    margin-bottom: 4em;
     margin-top: 2em;
   }
   
@@ -957,6 +958,9 @@ background-color: #f8982e !important;
   .big-text-line-wrapper {
     height: 12.5em;
     overflow: hidden;
+  }
+  .spword {
+    width: 3em;
   }
   
   .anim-big-heading-wrapper.flex-hor {
@@ -1144,7 +1148,7 @@ background-color: #f8982e !important;
   }
   
   .op-30 {
-    opacity: .3;
+    opacity: .6;
   }
   
   .op-40 {

@@ -468,6 +468,14 @@
     left: 2.78em;
     right: 2.78em;
   }
+
+  #scroll_contact{
+    position: absolute;
+    top: auto;
+    bottom: 17em;
+    left: 2.78em;
+    right: 2.78em;
+  }
   
   .hero-bottom.flex-hor {
     align-items: flex-end;

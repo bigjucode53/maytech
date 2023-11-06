@@ -6,7 +6,7 @@
     grid-auto-columns: 1fr;
     display: grid;
   }
-  
+
   .w-checkbox {
     margin-bottom: 5px;
     padding-left: 20px;
@@ -349,6 +349,7 @@
   .white {
     background-color: #f7f7f7;
   }
+ 
   .orange{
     background-color: #f8982e;
   }
@@ -493,11 +494,12 @@
   }
   
   .hero-smile-wrapper {
-    width: 5.56em;
-    height: 5.56em;
-    border-radius: 69.44em;
+    width: 5em;
+    height: 5em;
+    /* border-radius: 69.44em; */
     margin-top: .3em;
-    margin-right: .9em;
+    margin-right: 1em;
+    margin-left: 1em;
   }
   
   .black {
@@ -523,9 +525,10 @@
   .white-text {
     color: #ffffff;
   }
-  
+
   .white-text.h1 {
     margin-right: .1em;
+    
   }
   
   .pink-text {

@@ -826,7 +826,7 @@ background-color: #f8982e !important;
   }
   .heading-2-wrapper {
     margin-bottom: 4em;
-    margin-top: 2em;
+    margin-top: 10em;
   }
   
   .h2-text-wrapper {
@@ -1992,7 +1992,7 @@ background-color: #f8982e !important;
     height: 100%;
     cursor: pointer;
   }
-  /* .hero-anim-smile img {
+  .hero-anim-smile img {
     transition: -webkit-transform 0.5s ease;
     transition: transform 0.5s ease;
   }
@@ -2000,7 +2000,7 @@ background-color: #f8982e !important;
     -webkit-transform: rotate(360deg)scale(1.05);
     transform: rotate(360deg)scale(1.05);
   }
-   */
+  
   ._2-card-grid {
     width: 83%;
     grid-column-gap: 1.1em;

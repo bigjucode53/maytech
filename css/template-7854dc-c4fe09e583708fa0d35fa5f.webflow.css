@@ -232,6 +232,10 @@
     width: 100%;
     padding-bottom: 0;
   }
+  #requests .mg-200px.bottom {
+    margin-bottom: 9.89em;
+
+  }
   
   .mg-200px.bottom {
     margin-bottom: 13.89em;
@@ -798,6 +802,7 @@ background-color: #f8982e !important;
     height: 24em;
     position: relative;
     overflow: hidden;
+    margin-top: 4%;
     /* border: solid #b9237c 2px; */
   }
   #logo_footer{
@@ -826,7 +831,7 @@ background-color: #f8982e !important;
   }
   .heading-2-wrapper {
     margin-bottom: 4em;
-    margin-top: 10em;
+    margin-top: 5em;
   }
   
   .h2-text-wrapper {
@@ -1233,6 +1238,7 @@ background-color: #f8982e !important;
     padding: 2.29em 2.78em 8.33em;
     position: relative;
     overflow: hidden;
+    margin-top: 5%;
   }
   
   .anim-color-wrapper.about {
@@ -1270,7 +1276,7 @@ background-color: #f8982e !important;
   }
   
   .bg-color-block.white {
-    z-index: -1;
+   display: none;
   }
   
   .bg-color-block.white.card {
@@ -1278,7 +1284,7 @@ background-color: #f8982e !important;
   }
   
   .bg-color-block.yellow-2 {
-    z-index: -1;
+    display: none;
   }
   
   .bg-color-block.about {
@@ -1426,7 +1432,8 @@ background-color: #f8982e !important;
   }
   
   ._3-card-grid.home {
-    margin-bottom: .97em;
+    margin-top: 6%;
+    margin-bottom: 6%;
   }
   
   .card-video-wrapper {
